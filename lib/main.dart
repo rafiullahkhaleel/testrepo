@@ -133,3 +133,16 @@ class Kitab extends StatelessWidget {
         ));
   }
 }
+class TESTCLASS extends StatefulWidget {
+  const TESTCLASS({super.key});
+
+  @override
+  State<TESTCLASS> createState() => _TESTCLASSState();
+}
+
+class _TESTCLASSState extends State<TESTCLASS> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
